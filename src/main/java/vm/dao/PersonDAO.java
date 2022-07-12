@@ -7,9 +7,6 @@ import vm.models.Person;
 
 import java.util.List;
 
-/**
- * @author Neil Alishev
- */
 @Component
 public class PersonDAO {
 
@@ -22,7 +19,6 @@ public class PersonDAO {
 
     public List<Person> index() {
         return jdbcTemplate.query("select * from person", new PersonMapper());
-
     }
 
     public Person show(int id) {
@@ -31,16 +27,17 @@ public class PersonDAO {
     }
 
     public void save(Person person) {
-        jdbcTemplate.update("insert into person VALUES (?, ?, ?)", person.getName(), person.getAge(), person.getEmail());
-
+        jdbcTemplate.update("insert into person VALUES (?, ?, ?)",
+                person.getName(), person.getAge(), person.getEmail());
     }
+
     public void update(int id, Person updPerson){
        jdbcTemplate.update("update person set name=?, age = ?, email=? where id=?",
                updPerson.getName(), updPerson.getAge(), updPerson.getEmail(), id);
     }
+
     public  void delete(int id){
         jdbcTemplate.update("delete from person where id=?", id);
-
 
     }
 }
