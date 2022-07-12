@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0573efde-b384-4609-800f-962f9e92595f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vm/dao/PersonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vm/cofig/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vm/cofig/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vm/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vm/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -163,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657563500762</updated>
-      <workItem from="1657563503304" duration="16445000" />
+      <workItem from="1657563503304" duration="18620000" />
     </task>
     <servers />
   </component>
