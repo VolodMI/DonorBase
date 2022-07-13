@@ -10,10 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0573efde-b384-4609-800f-962f9e92595f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/36550473-a154-4558-b01a-0ee77741bbbd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/36550473-a154-4558-b01a-0ee77741bbbd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/36550473-a154-4558-b01a-0ee77741bbbd/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/36550473-a154-4558-b01a-0ee77741bbbd/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vm/cofig/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vm/cofig/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vm/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vm/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vm/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vm/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "import_schema_mapping": "<schema-mapping><databases><list><schema-mapping-item><source-data-source-id>36550473-a154-4558-b01a-0ee77741bbbd</source-data-source-id><source-path>database/\"postgres\"/schema/\"public\"</source-path><target-data-source-id>36550473-a154-4558-b01a-0ee77741bbbd</target-data-source-id><target-path>database/\"postgres\"/schema/\"public\"</target-path></schema-mapping-item></list></databases></schema-mapping>",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -164,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657563500762</updated>
-      <workItem from="1657563503304" duration="22525000" />
+      <workItem from="1657563503304" duration="32115000" />
     </task>
     <servers />
   </component>

@@ -1,26 +1,79 @@
 package vm.models;
 
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.Size;
+
 
 public class Person {
     private int id;
-    @NotEmpty(message = "Name shouldn`t be empty")
-    @Size(min = 2, max = 30, message = "Name is not valid")
     private String name;
-    @Min(value = 16, message = "too young")
     private int age;
-    @NotEmpty(message = "Email is empty")
-    @Email(message = "Email is not valid")
     private String email;
+    private String phoneNumber;
+    private String bloodType;
+    private String rhD;
+    private String sex;
+    private String date;
+    private int volume;
 
-    public Person(int id, String name, int age, String email) {
+
+    public Person(int id, String name, int age, String sex, String email, String phoneNumber, String bloodType, String rhD,  String date, int volume) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.bloodType = bloodType;
+        this.rhD = rhD;
+        this.sex = sex;
+        this.date = date;
+        this.volume = volume;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getBloodType() {
+        return bloodType;
+    }
+
+    public void setBloodType(String bloodType) {
+        this.bloodType = bloodType;
+    }
+
+    public String getRhD() {
+        return rhD;
+    }
+
+    public void setRhD(String rhD) {
+        this.rhD = rhD;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+
+    public void setVolume(int volume) {
+        this.volume = volume;
     }
 
     public Person() {
