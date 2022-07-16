@@ -51,6 +51,11 @@ public class PeopleController {
         model.addAttribute("person", personDAO.show(id));
         return "people/edit";
     }
+ // @GetMapping("/search")
+ // public String search (){
+ //    return "/people/result";
+ // }
+
 
     @PatchMapping("/{id}")
     public String update(@ModelAttribute("person") @Valid Person person,
@@ -58,7 +63,7 @@ public class PeopleController {
         if (bindingResult.hasErrors())
             return "people/edit";
         personDAO.update(id, person);
-        return "redirect:/people";
+        return "redirect:/people/{id}";
     }
 
     @DeleteMapping("/{id}")
@@ -66,4 +71,6 @@ public class PeopleController {
         personDAO.delete(id);
         return "redirect:/people";
     }
+
+
 }

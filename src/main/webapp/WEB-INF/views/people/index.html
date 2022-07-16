@@ -6,6 +6,10 @@
     <title>Index</title>
 </head>
 <body>
+<button onclick="window.location.href='/people/new'">add new</button>
+<button onclick="window.location.href='/people/search'">search</button>
+
+<hr/>
 
 <div th:each="person : ${people}">
     <a th:href="@{/people/{id}(id=${person.getId()})}"
@@ -13,7 +17,8 @@
 </div>
 <br/>
 <hr/>
-<a href="/people/new">add new</a>
+<a href="/">back</a>
+
 
 </body>
 </html>

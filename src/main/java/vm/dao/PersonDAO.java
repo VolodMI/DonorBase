@@ -43,6 +43,9 @@ public class PersonDAO {
         jdbcTemplate.update("delete from person where id=?", id);
 
     }
+//   public void search(Person person){
+//       jdbcTemplate.update("select * from person where bloodtype = ? and rhd = ?", person.getBloodType(), person.getRhD());
+//   }
 
 
 }

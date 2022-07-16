@@ -1,6 +1,9 @@
 <html>
 <body>
 <a href="/people"
->Lets start!</a>
+>show people</a>
+<a href="/people/search"
+   >search</a>
+
 </body>
 </html>
