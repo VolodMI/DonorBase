@@ -10,7 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0573efde-b384-4609-800f-962f9e92595f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,7 @@
       <list>
         <option value="Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -55,6 +62,7 @@
     "WebServerToolWindowFactoryState": "false",
     "import_schema_mapping": "<schema-mapping><databases><list><schema-mapping-item><source-data-source-id>36550473-a154-4558-b01a-0ee77741bbbd</source-data-source-id><source-path>database/\"postgres\"/schema/\"public\"</source-path><target-data-source-id>36550473-a154-4558-b01a-0ee77741bbbd</target-data-source-id><target-path>database/\"postgres\"/schema/\"public\"</target-path></schema-mapping-item></list></databases></schema-mapping>",
     "last_opened_file_path": "D:/java/DonorBase",
+    "list.type.of.created.stylesheet": "CSS",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -167,7 +175,7 @@
       <workItem from="1657563503304" duration="32894000" />
       <workItem from="1657790728059" duration="5997000" />
       <workItem from="1657904442542" duration="8378000" />
-      <workItem from="1658252230828" duration="332000" />
+      <workItem from="1658252230828" duration="1810000" />
     </task>
     <servers />
   </component>
